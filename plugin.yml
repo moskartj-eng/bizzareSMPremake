@@ -1,0 +1,15 @@
+name: TrimAbilities
+version: ${version}
+main: de.trimabilities.TrimAbilitiesPlugin
+api-version: '1.21'
+description: Armor trims with abilities, activated with the offhand key (F).
+commands:
+  trimabilities:
+    description: Admin command (reload, list)
+    usage: /trimabilities <reload|list>
+    permission: trimabilities.admin
+permissions:
+  trimabilities.use:
+    default: true
+  trimabilities.admin:
+    default: op

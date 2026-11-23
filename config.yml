@@ -1,0 +1,29 @@
+# Mindestanzahl Rüstungsteile mit dem gleichen Trim-Muster
+min-pieces: 2
+
+# Muss man schleichen (Shift), um die Fähigkeit mit F auszulösen?
+require-sneak: false
+
+# Cooldowns in Sekunden pro Trim-Muster
+cooldowns:
+  sentry: 25
+  dune: 15
+  coast: 30
+  wild: 20
+  ward: 40
+  eye: 35
+  vex: 35
+  tide: 30
+  snout: 40
+  rib: 30
+  spire: 30
+  silence: 35
+  raiser: 45
+  host: 35
+  shaper: 15
+  wayfinder: 30
+  flow: 20
+  bolt: 30
+
+# Fähigkeiten einzeln abschaltbar
+disabled: []
